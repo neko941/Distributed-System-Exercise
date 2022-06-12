@@ -1,0 +1,7 @@
+numpy==1.20.3
+opencv_python==4.5.5.64
+progress==1.6
+requests==2.23.0
+requests_toolbelt==0.9.1
+rich==12.4.4
+torch==1.11.0
