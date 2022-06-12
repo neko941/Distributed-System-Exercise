@@ -18,19 +18,20 @@ Note: '192.168.1.4:941' is the url that server.py will provide
 
 
 # Optional Arguments
+### server.py
+```
+optional arguments:
+  -h, --help                                    show this help message and exit
+  -p PORT, --port PORT                          port number
+```
 ### client_mulitithread.py
 ```
 optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        name of the recorded video
-  -o OUTPUT, --output OUTPUT
-                        name of the processed video
-  -f FOLDER, --folder FOLDER
-                        name of the folder used for processing
-  -t, --show_table      show result table
-  -d FRAME_DELAY, --frame_delay FRAME_DELAY
-                        frame delay when showing output video
-  -s SERVERS, --servers SERVERS
-                        list of servers
+  -h, --help                                    show this help message and exit
+  -i INPUT, --input INPUT                       name of the recorded video
+  -o OUTPUT, --output OUTPUT                    name of the processed video
+  -f FOLDER, --folder FOLDER                    name of the folder used for processing
+  -t, --show_table                              show result table
+  -d FRAME_DELAY, --frame_delay FRAME_DELAY     frame delay when showing output video
+  -s SERVERS, --servers SERVERS                 list of servers
 ```
