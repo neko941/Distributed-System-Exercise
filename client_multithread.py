@@ -185,6 +185,12 @@ if __name__ == '__main__':
     video_path = os.path.join(folder_name, opt.input)
     video_output_path = os.path.join(folder_name, opt.output)
     servers = fix_url(opt.servers.split(','))
+
+    """ Display used servers """
+    print("\nServers: ")
+    for i, server in enumerate(servers):
+        print(f"\t{i}. {server}")
+    print()
     
     """ Make temp folder """
     mkdir(folder_name)
